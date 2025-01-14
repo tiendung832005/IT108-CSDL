@@ -1,0 +1,12 @@
+Bài 3:
+- Hệ quản trị dữ liệu MY SQL là: Một hệ quản trị cơ sở dữ liệu quan hệ (Relational Database Management System -RDBMS) mã nguồn mở, được sử dụng rộng rãi trên toàn thế giới. Nó được thiết kế để quản lý các cơ sở dữ liệu có cấu trúc, nơi dữ liệu được tổ chức thành các bảng liên kết với nhau.
+
+- 3 đặc điểm chính:
++ Tuân theo mô hình quan hệ, nơi dữ liệu được tổ chức thành các bảng liên kết với nhau qua khóa.
++ Sử dụng ngôn ngữ SQL để thực hiện các truy vấn, cập nhật và quản lý dữ liệu.
++ Hỗ trợ nhiều luồng xử lý đồng thời, giúp tang hiệu suất.
+
+- 3 trường hợp thực tế sử dung MySQL:
++ Quản lý dữ liệu trong các website, hệ thống thương mại điện tử.
++ Quản lý thông tin trong các tổ chức, doanh nghiệp lớn.
++ Hệ thống phân tích dữ liệu trong các ứng dụng phân tích dữ liệu và báo cáo.
