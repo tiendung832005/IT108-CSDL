@@ -1,0 +1,1 @@
+select hoten, makhoa, noisinh, hocbong from dmsv where hocbong >= 150000 and noisinh = 'Hà Nội';
