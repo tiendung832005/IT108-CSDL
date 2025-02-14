@@ -13,7 +13,6 @@ select * from CountryLanguageView;
 DELIMITER &&
 create procedure GetLargeCitiesWithEnglish()
 begin
-    -- Truy vấn danh sách thành phố có dân số lớn hơn 1 triệu, thuộc quốc gia có ngôn ngữ chính thức là tiếng Anh
     select 
         ci.Name as CityName,
         c.Name as CountryName,
@@ -27,4 +26,8 @@ begin
     limit 20;
 end &&
 DELIMITER &&;
+
+call GetLargeCitiesWithEnglish();
+
+drop procedure if exists GetLargeCitiesWithEnglish;
 
