@@ -57,4 +57,4 @@ begin
 end &&
 DELIMITER &&;
 
-CALL TransferMoney(1, 2, 200.00);
+CALL PlaceOrder(1, 2, 200.00);
