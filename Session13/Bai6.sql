@@ -33,7 +33,6 @@ CREATE TABLE enrollments_history (
     FOREIGN KEY (course_id) REFERENCES courses(course_id)
 );
 
--- 3
 set autocommit = 0;
 delimiter &&
 create procedure procedure_bai6(
