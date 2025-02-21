@@ -13,9 +13,9 @@ create table student_log(
     st_log_age int
 );
 
-create table transaction_log(
-	log_id int primary key auto_increment,
-    log_message text
+CREATE TABLE transaction_log (
+    log_id INT PRIMARY KEY AUTO_INCREMENT,
+    log_message TEXT
 );
 
 /*
